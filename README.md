@@ -5,6 +5,8 @@ Upon completion of this training, user will have basic understanding of SMV + Sp
 
 By forking this project and commiting changes to user project, we can help with individual questions on training progress.
 
+This is my own first change to this project.
+
 # Training Tasks
 1. Learn basic Git/Github operations
   * Create a github account.
