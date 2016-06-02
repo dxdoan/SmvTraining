@@ -1,0 +1,7 @@
+digraph G {
+  rankdir="TD";
+  node [style=filled,color="lightblue"]
+  "stage1.input.employment" [shape=box, color="pink"]
+  "stage1.EmploymentByState" [tooltip="ETL Example: Employment"]
+  "stage1.input.employment" -> "stage1.EmploymentByState" 
+}

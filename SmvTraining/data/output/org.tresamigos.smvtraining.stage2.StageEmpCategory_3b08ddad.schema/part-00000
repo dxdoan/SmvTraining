@@ -1,0 +1,6 @@
+@delimiter = ,
+@has-header = false
+@quote-char = "
+ST: String[,_SmvStrNull_]
+EMP: Long
+cat_high_emp: Boolean
