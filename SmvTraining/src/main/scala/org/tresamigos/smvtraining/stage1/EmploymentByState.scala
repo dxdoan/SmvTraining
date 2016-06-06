@@ -16,8 +16,10 @@ object EmploymentByState extends SmvModule("ETL Example: Employment") with SmvOu
   override def run(i: runParams) = {
     val df = i(input.employment)
 
-    df.groupBy("ST").agg(
-      sum("EMP") as "EMP"
-    )
+    val groupByDf = df.groupBy("ST").agg(
+                      sum("EMP") as "EMP"
+                    )
+
+    groupByDf.sort(desc("EMP"))
   }
 }
